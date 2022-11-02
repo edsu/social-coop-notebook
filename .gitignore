@@ -1,0 +1,11 @@
+# don't put any of the data up in github!
+data/*
+
+# allow the data directory to exist though
+!data/.keep
+
+# don't put credentials in github!
+.env
+
+.ipynb_checkpoints/
+Pipfile
